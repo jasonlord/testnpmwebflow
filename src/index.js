@@ -7,4 +7,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // lodash example
   console.log("Chunked:", _.chunk(["a", "b", "c", "d"], 2));
+  console.log("jason it worked");
 });
