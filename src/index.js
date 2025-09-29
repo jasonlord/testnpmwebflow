@@ -1,8 +1,10 @@
 import $ from "jquery";
 
 $(document).ready(function () {
-  const myString = "dsfsdfsadfs fdsfsd fsd fds";
-  $("#npmHeading").text(myString);
-
-  // Your code here
+  let counter = 1000;
+  setInterval(function () {
+    counter += 1;
+    const updatedString = `dsfsdfsadfs fdsfsd fsd fds ${counter}`;
+    $("#npmHeading").text(updatedString);
+  }, 1000);
 });
