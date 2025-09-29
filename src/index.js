@@ -1,7 +1,8 @@
 import $ from "jquery";
 
 $(document).ready(function () {
-  console.log("working with jquery");
+  const myString = "Your new heading value";
+  $("#npmHeading").text(myString);
 
   // Your code here
 });
