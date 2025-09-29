@@ -1,7 +1,7 @@
 import $ from "jquery";
 
 $(document).ready(function () {
-  const myString = "Your new heading value";
+  const myString = "dsfsdfsadfs fdsfsd fsd fds";
   $("#npmHeading").text(myString);
 
   // Your code here
