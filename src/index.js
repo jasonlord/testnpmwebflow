@@ -4,7 +4,7 @@ $(document).ready(function () {
   let counter = 1000;
   setInterval(function () {
     counter += 1;
-    const updatedString = `dsfsdfsadfs fdsfsd fsd fds ${counter}`;
+    const updatedString = `${counter}`;
     $("#npmHeading").text(updatedString);
   }, 1000);
 });
