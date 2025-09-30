@@ -11,7 +11,7 @@ $(function () {
     }, 1000);
   }, 5000);
 
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 1000000; i++) {
     const h1 = $("<h1>").text(`Heading ${i + 1}`);
     $("body").append(h1);
   }
