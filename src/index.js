@@ -1,6 +1,6 @@
 import $ from "jquery";
 
-$(document).ready(function () {
+$(function () {
   setTimeout(function () {
     let counter = 1000;
     setInterval(function () {
